@@ -13,12 +13,15 @@ export const GithubProvider = ({children}) => {
 
     const [state, dispatch] = useReducer(githubReducer, initialState)
 
-    return <GithubContext.Provider value={{
+    return (
+        <GithubContext.Provider value={{
         ...state,
         dispatch,
-    }}>
+        }}
+        >
         {children}
-    </GithubContext.Provider>
+        </GithubContext.Provider>
+    )
 }
 
 export default GithubContext
