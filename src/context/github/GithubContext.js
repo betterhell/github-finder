@@ -15,11 +15,11 @@ export const GithubProvider = ({children}) => {
 
     return (
         <GithubContext.Provider value={{
-        ...state,
-        dispatch,
-        }}
+            ...state,
+            dispatch,
+          }}
         >
-        {children}
+            {children}
         </GithubContext.Provider>
     )
 }
