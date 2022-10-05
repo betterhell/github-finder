@@ -36,7 +36,6 @@ const RepoItem = ({repo}) => {
                         <FaUtensils className="mr-2" /> {forks}
                     </div>
                 </div>
-
             </div>
         </div>
     );

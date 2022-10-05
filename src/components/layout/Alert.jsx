@@ -1,7 +1,7 @@
 import React from 'react';
 import {useContext} from "react";
-import AlertContext from "../../context/alert/AlertContext";
 import {FcCancel} from "react-icons/fc"
+import AlertContext from "../../context/alert/AlertContext";
 
 const Alert = () => {
     const {alert} = useContext(AlertContext)

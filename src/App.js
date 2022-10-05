@@ -1,11 +1,11 @@
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {GithubProvider} from "./context/github/GithubContext";
+import {AlertProvider} from "./context/alert/AlertContext";
 import Navbar from "./components/layout/Navbar"
 import Footer from "./components/layout/Footer";
 import About from "./pages/About";
 import Notfound from "./pages/Notfound";
 import Home from "./pages/Home"
-import {GithubProvider} from "./context/github/GithubContext";
-import {AlertProvider} from "./context/alert/AlertContext";
 import Alert from "./components/layout/Alert";
 import User from "./pages/User";
 
